@@ -10,9 +10,9 @@ const Footer = () => {
                     <img src="/logo.png" alt="Company Logo" className="logo" />
                     <h4>Healthcare Company</h4>
                     <ul className="social-media">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
+                        <li><a href="https://facebook.com">Facebook</a></li>
+                        <li><a href="https://twitter.com">Twitter</a></li>
+                        <li><a href="https://instagram.com">Instagram</a></li>
                     </ul>
                 </div>
                 <div className="footer-right">
@@ -25,10 +25,10 @@ const Footer = () => {
                     <div className="footer-section">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="/about-us">About Us</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/terms-of-service">Terms of Service</a></li>
                         </ul>
                     </div>
                     <div className="footer-section newsletter">

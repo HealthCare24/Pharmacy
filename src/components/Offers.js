@@ -11,14 +11,14 @@ const offers = [
 const Offers = () => {
     return (
         <div className="offers">
-            <marquee behavior="scroll" direction="left">
+            <div className="offers-container">
                 {offers.map(offer => (
                     <div key={offer.id} className="offer">
                         <img src={offer.imageUrl} alt={offer.text} />
                         <p>{offer.text}</p>
                     </div>
                 ))}
-            </marquee>
+            </div>
         </div>
     );
 }
