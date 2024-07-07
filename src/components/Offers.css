@@ -1,0 +1,21 @@
+/* src/components/Offers.css */
+.offers {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.offers .offer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 20px;
+}
+
+.offers img {
+    height: 50px;
+    border-radius: 5px;
+}
